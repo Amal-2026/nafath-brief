@@ -21,10 +21,18 @@ The OWASP Mobile Application Security Verification Standard (MASVS) defines secu
 Resource: OWASP – Mobile Application Security Verification Standard (MASVS) - https://mas.owasp.org/MASVS/
 
 ## Networking
+Border Gateway Protocol (BGP) allows networks to exchange internet routing information. In a route hijacking attack, an attacker announces false routing information, potentially diverting traffic to an unauthorized network. Resource Public Key Infrastructure (RPKI) helps routers verify whether an autonomous system is authorized to originate an IP prefix. However, origin validation does not verify the entire route path or prevent every interception attack. Networks should also use routing policies, monitoring, and additional security measures.
 
+Resource: RFC 6811 – BGP Prefix Origin Validation - https://www.rfc-editor.org/rfc/rfc6811.html
 ## Cybersecurity
+Log4Shell (CVE-2021-44228) was a critical remote code execution vulnerability in the Apache Log4j Java logging library. An attacker could exploit vulnerable systems by sending specially crafted input that triggered unsafe lookups, potentially allowing code execution on the server. It was rated severe because exploitation could be relatively easy and lead to major compromise. Organizations should identify affected systems and upgrade to a fixed Log4j version, following official vendor guidance.
+
+Resource: CISA – Mitigating Log4Shell and Other Log4j-Related Vulnerabilities - https://www.cisa.gov/news-events/cybersecurity-advisories/aa21-356a
 
 ## Data
+A Software Bill of Materials (SBOM) is a structured inventory of software components and their relationships. It helps organizations identify dependencies and assess whether their software contains vulnerable or outdated components. The NTIA identifies minimum data fields including supplier name, component name, component version, other unique identifiers, dependency relationships, SBOM author, and timestamp. Maintaining an accurate SBOM improves transparency and supports vulnerability management across the software supply chain.
+
+Resource: NTIA – The Minimum Elements for a Software Bill of Materials (SBOM) - https://www.ntia.gov/report/2021/minimum-elements-software-bill-materials-sbom
 
 ## Misconception in My Track
 
