@@ -1,0 +1,6 @@
+- YOUR_ID skeleton: NAFATH-V4
+- YOUR_ID overview: connect the six subtopics
+- YOUR_ID research: software, ai, mobile
+- YOUR_ID research: networking, cybersecurity, data
+- YOUR_ID analysis: misconception and open question
+- YOUR_ID revise: overview
