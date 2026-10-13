@@ -1,6 +1,6 @@
 - f1918cd skeleton: NAFATH-V4
-- YOUR_ID overview: connect the six subtopics
-- YOUR_ID research: software, ai, mobile
-- YOUR_ID research: networking, cybersecurity, data
-- YOUR_ID analysis: misconception and open question
-- YOUR_ID revise: overview
+- 9254f91 overview: connect the six subtopics
+- 3f14c0a research: software, ai, mobile
+- 40db434 research: networking, cybersecurity, data
+- 45309e2 analysis: misconception and open question
+- a2c88be revise: overview
