@@ -35,5 +35,10 @@ A Software Bill of Materials (SBOM) is a structured inventory of software compon
 Resource: NTIA – The Minimum Elements for a Software Bill of Materials (SBOM) - https://www.ntia.gov/report/2021/minimum-elements-software-bill-materials-sbom
 
 ## Misconception in My Track
+A common misconception is that Log4Shell only affects websites that use Java directly or that installing a firewall is enough to protect against it. In reality, the vulnerability affects vulnerable versions of the Apache Log4j logging library, which may be included indirectly through application dependencies. Attackers may exploit affected systems to execute code remotely. The correct response is to identify vulnerable Log4j versions, update to a fixed version, and follow vendor guidance. CISA's Log4Shell advisory explains the vulnerability and recommends mitigation actions.
+
+Evidence: CISA – Mitigating Log4Shell and Other Log4j-Related Vulnerabilities, section “Mitigations”.
+Supporting sentence: “Immediately identify, mitigate, and update affected products that use Log4j to the latest patched version.”
 
 ## Open Question
+How can a national service provider continuously verify the integrity of software dependencies and detect newly disclosed vulnerabilities before attackers exploit them?
